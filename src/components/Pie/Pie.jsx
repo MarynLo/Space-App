@@ -15,6 +15,7 @@ const IconoContainer = styled.ul`
     margin: 0;
     padding: 0;
     list-style: none;
+    
     li{
         display: inline-block;
         margin-right: 32px;

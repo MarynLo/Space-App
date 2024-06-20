@@ -23,7 +23,7 @@ const FondoGradiente = styled.div`
 
 // contenedor para banner.png
 const AppContainer = styled.div`
-  width: 1690px;
+  width: 1300px;
   max-width: 100%;
   margin: 0 auto;
 `;

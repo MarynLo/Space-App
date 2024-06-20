@@ -6,6 +6,7 @@ const ListaEstilizada = styled.ul `
     margin: 0;
     padding: 0;
     list-style: none;
+    width: 236px;
 `
 const BarraLateral = () => {
     return (
@@ -13,7 +14,7 @@ const BarraLateral = () => {
         <nav>
             <ListaEstilizada>
                 
-                <ItemNavegacion iconoActivo ="iconos/home-activo.png" iconoInactivo = "iconos/home-inactivo.png" activo>
+                <ItemNavegacion iconoActivo ="iconos/home-activo.png" iconoInactivo = "iconos/home-inactivo.png" activo = {true}>
                     Inicio 
                 </ItemNavegacion>
 

@@ -1,13 +1,13 @@
 import styled from "styled-components";
 import tags from "./tags.json";
 
-const BarraTags = styled.div`
+const BarraTags = styled.section`
     display: flex;
     align-items: center;
     gap: 64px;
     margin-top: 56px;
 `
-const TagTitulo = styled.p`
+const TagTitulo = styled.h3`
     font-size: 24px;
     color: #D9D9D9;
     margin: 0;

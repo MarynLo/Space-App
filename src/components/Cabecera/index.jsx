@@ -6,18 +6,18 @@ const HeaderEstilizado = styled.header`
     display: flex;
     justify-content: space-between;
     padding: 60px 0;
-    /* img{
+    img{
       width: 212px;
-    }   */
+    }   
 `
 
 const Cabecera = () => {
-    return (
+    return 
     <HeaderEstilizado>
-        <img src="./img/Logo.png" alt="Logo de Space-App" />
+        <img src="./img/Logo.png" alt="Logo de Space App" />
         <CampoTexto />
     </HeaderEstilizado>
- )
+ 
 }
 
 export default Cabecera

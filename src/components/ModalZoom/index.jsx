@@ -30,7 +30,7 @@ const DialogEstilizado = styled.dialog`
         }
     }
 `
-const ModalZoom = ({foto, alCerrar, alAlternarFavorito}) => {
+const ModalZoom = ({ foto, alCerrar, alAlternarFavorito }) => {
     
     return (
     <>

@@ -10,7 +10,7 @@ const CampoTextoEstilizado = styled.input`
     padding: 12px 16px;
     border-radius: 10px;
     border: 2px solid;
-    border-color: brown;
+    border-color: #C98CF1;
     background: transparent;
     box-sizing: border-box;
     width: 566px;
@@ -24,7 +24,7 @@ const IconoLupa = styled.img`
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 38px;
+    width: 38px !important;
     height: 38px;
 `
 

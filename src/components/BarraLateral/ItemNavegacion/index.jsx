@@ -14,7 +14,7 @@ const ItemListaEstilizado = styled.li`
 
 const ItemNavegacion = ({children, iconoActivo, iconoInactivo, activo=false}) => {
     return <ItemListaEstilizado $activo={activo}>
-    <img src={activo ? iconoActivo: iconoInactivo} alt="Icono" />
+    <img src={activo ? iconoActivo : iconoInactivo} alt="Icono" />
     {children}
     
     </ItemListaEstilizado>
